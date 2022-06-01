@@ -1,0 +1,70 @@
+body{
+    background-color: white;
+    color: #062C30;
+}
+
+#container {
+    background: #fff;
+    width: 80%;
+    margin: 0 auto;
+    position: relative
+}
+
+button{
+    background-color: #062C30;
+    cursor: pointer;
+    color: white;
+    margin: 15px;
+    padding: 20px;
+    font-family: 'Fugaz One', cursive;
+}
+
+
+.view {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.view-2{
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.para-view{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+.mid{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: 4rem;
+}
+
+#title{
+    font-family: 'Fugaz One', cursive;
+    font-size: 4rem;
+}
+
+#pic{
+    width: 25%;
+}
+
+#left, #right {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    top: 0
+}
+#left {
+    background: #062C30;
+    left: 0
+}
+#right {
+    background: #E2D784;
+    right: 0
+}
